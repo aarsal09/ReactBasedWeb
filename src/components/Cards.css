@@ -1,0 +1,29 @@
+.cards-container{
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+    justify-content: space-between;
+    float: left;
+    background-color: whitesmoke;
+    margin: 0 -5px;
+    overflow: auto;
+}
+.card{
+    border-style: solid;
+    height: 350px;
+    width: 18rem;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 5px;
+}
+.card img{
+    height: 100px;
+}
+.card-body{
+    width: 18rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-body h5{
+    font-size: large;
+}
